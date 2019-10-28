@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+}
+
+/* Masthead  */
+/* nav {
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid rgba(184, 189, 185, 0.5);
+    border-bottom: 1px solid rgba(184, 189, 185, 0.5);
+    padding: 20px;
+} */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.content {
+        padding: 16px;      
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+#navbar li {
+    float: left;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #navbar li a:hover {
+    background-color: #111;
+  }
+
+#logo {
+    width: 350px;
+    height: 63.58px;
+    float: top;
+    margin: 30px 0px 30px 0px;
+    padding: 10px;
+}   
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(116, 192, 191);
+}
+
+/* content */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 10% 0 10%;
+    background-color: rgb(249, 249, 249);
+}
+
+.bio {
+    margin-top: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.date {
+    font-size: 1em;
+    color: rgb(116, 192, 191);
+}
+
+.news {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 460px) {
+    li {
+        width: 100% !important;
+        float:none !important;
+    }
+}
