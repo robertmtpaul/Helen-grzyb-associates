@@ -2,50 +2,44 @@ html {
     box-sizing: border-box;
 }
 
-/* ================================= 
-  Base Element Styles
-==================================== */
-
 * {
-	box-sizing: border-box;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 2em;
-}
-
-a {
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color: rgb(116, 192, 191);
-}
-body {
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0 10% 0 10%;
+    }
+
+body {
     background-color: rgb(249, 249, 249);
 }
 
-footer {
-    margin-top: 50px;
-}
+/* Masthead  */
+/* nav {
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid rgba(184, 189, 185, 0.5);
+    border-bottom: 1px solid rgba(184, 189, 185, 0.5);
+    padding: 20px;
+} */
 
-/* ================================= 
-  Base Layout Styles
-==================================== */
-/* ---- Navigation ---- */
+/*Custom styles*/
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
+  
+.buttonspacing {
+    margin-bottom: 20px;
+}
 
 #navbar {
     overflow: hidden;
     background-color: #333;
-}
-
-.content {
-        padding: 16px;      
+    margin-bottom: 20px;
 }
 
 #navbar ul {
@@ -59,37 +53,52 @@ footer {
   }
   
 #navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
   /* Change the link color to #111 (black) on hover */
-  #navbar li a:hover {
-    background-color: #111;
+#navbar li a:hover {
+    background-color: white;
+    color: black;
   }
 
-/* ---- Layout Containers ---- */
+#logo {
+    width: 350px;
+    height: 83px;
+    float: top;
+    margin: 14px 0px 14px 0px;
+    padding: 10px;
+}   
 
-.col {
-    padding-right: 1em;
-    padding-left: 1em;
 
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
 }
 
+a:hover{
+    color: rgb(116, 192, 191);
+}
 
-/* ---- Page Elements ---- */
-
-.banner {
-  
+/* content */
+section {
+    margin: 0px 40px 0px 40px;
 
 }
 
 .bio {
     margin-top: 40px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2em;
 }
 
 .date {
@@ -101,50 +110,28 @@ footer {
     margin-top: 50px;
 }
 
-#logo {
-    width: 350px;
-    height: 63.58px;
-    float: top;
-}   
-
-/* ================================= 
-  Media Queries
-==================================== */
-
-@media (min-width: 1025px){
-
-  body {
-    padding-top: 121px;
-  }
-
-  header {
-    position: fixed;
-    background: #fff;
-    width: 100%;
-    top: 0;
-    display: inline-block;
-  }
-
-  #logo {
-    margin: 10px 0px 10px 0px;
-  }
-
-
+footer {
+  font-size: 15px;
+  background: rgb(30, 30, 30);
+  padding: 10px;
+  color: lightgrey;
 }
 
+footer ul {
+    margin: 0;
+}
 
+footer a {
+  color: lightgrey;
+}
 
-	/* ---- Float clearfix ---- */
+footer a:hover {
+  color: white;
+}
 
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
-
-  
-  
-/* content */
-
-
-
+@media screen and (max-width: 460px) {
+    li {
+        width: 100% !important;
+        float:none !important;
+    }
+}
