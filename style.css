@@ -22,7 +22,7 @@ body {
 /*Custom styles*/
 
 .sticky {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
   }
@@ -70,7 +70,6 @@ body {
 #logo {
     width: 350px;
     height: 83px;
-    float: top;
     margin: 14px 0px 14px 0px;
     padding: 10px;
 }   
