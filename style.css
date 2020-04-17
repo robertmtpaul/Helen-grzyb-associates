@@ -7,19 +7,31 @@ html {
     }
 
 body {
-    background-color: rgb(249, 249, 249);
+/*    background-color: rgb(249, 249, 249);
+*/}
+
+/* Custom styles */
+
+.card-image {
+width: 60%;
+height: 20%;
 }
 
-/* Masthead  */
-/* nav {
-    width: 100%;
-    background-color: white;
-    border-top: 1px solid rgba(184, 189, 185, 0.5);
-    border-bottom: 1px solid rgba(184, 189, 185, 0.5);
-    padding: 20px;
-} */
+.buttonspacing {
+    margin-bottom: 20px;
+}
 
-/*Custom styles*/
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(116, 192, 191);
+}
+
+/*Navbar*/
 
 .sticky {
     position: sticky;
@@ -31,10 +43,6 @@ body {
     padding-top: 60px;
   }
   
-  
-.buttonspacing {
-    margin-bottom: 20px;
-}
 
 #navbar {
     overflow: hidden;
@@ -61,7 +69,6 @@ body {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
 #navbar li a:hover {
     background-color: white;
     color: black;
@@ -73,17 +80,6 @@ body {
     margin: 14px 0px 14px 0px;
     padding: 10px;
 }   
-
-
-a {
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color: rgb(116, 192, 191);
-}
 
 /* content */
 section {
@@ -127,6 +123,11 @@ footer a {
 footer a:hover {
   color: white;
 }
+
+/* Media queries */
+
+
+
 
 @media screen and (max-width: 460px) {
     li {
