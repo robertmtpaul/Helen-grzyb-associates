@@ -71,7 +71,24 @@ a:hover{
     padding: 14px;
     text-decoration: none;
   }
-  
+
+.navbar-contact {
+   color: white;
+    position: absolute;
+    left: 93%;
+    top: -15%;
+    font-size: 30px;
+
+}
+
+.navbar-call {
+  color: white;
+    position: absolute;
+    left: 86%;
+    top: -15%;
+    font-size: 30px;
+}
+
 #navbar li a:hover {
     background-color: white;
     color: black;
