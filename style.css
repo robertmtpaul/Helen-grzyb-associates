@@ -6,9 +6,12 @@
 
 body {
     background-color: rgb(249, 249, 249);
-    margin: 0 auto;
 }
 
+main {
+      margin: 0px 10px 0px 10px !important;
+
+}
 
 /*Navbar*/
 
@@ -44,7 +47,7 @@ height: 150px;
 #logo {
     width: 350px;
     height: 83px;
-    margin: 14px 0px 14px 0px;
+    margin: 10px 0px 10px 0px;
     padding: 10px;
 }   
 #logo:hover {
@@ -72,8 +75,8 @@ h2 {
     color: rgb(116, 192, 191);
 }
 
-.news {
-    margin-top: 50px;
+#news {
+    margin: 20px 0px 20px 0px;
 }
 
 footer {
