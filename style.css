@@ -1,5 +1,3 @@
-
-
 * {
     font-family: 'Source Sans Pro', sans-serif;
     }
@@ -10,19 +8,17 @@ body {
 
 main {
       margin: 10px 10px 10px 10px !important;
-
 }
 
 /*Navbar*/
 
-nav a {
-    color: #f2f2f2;
-  }
+.bg-dark {
+  background-color: #58b5b1 !important;
+}
 
-/*nav li a:hover {
-    background-color: white;
-    color: black !important;
-  }*/
+nav a {
+    color: white !important;
+  }
 
 /* Custom styles */
 
@@ -30,36 +26,47 @@ a:hover{
     color: rgb(116, 192, 191);
 }
 
-.card-image {
-width: 208px;
-height: 150px;
-}
-
 .buttonspacing {
     margin-bottom: 20px;
 }
+
+.btn-info {
+  background-color: #58b5b1;
+  border-color: #58b5b1;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.btn-primary {
+    background-color: #58b5b1;
+    border-color: #58b5b1;
+}
+
+.btn-primary:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
 
 /*a {
     font-weight: 700;
     text-decoration: none;
     color: black;
 }*/
+
 #logo {
     width: 350px;
     height: 83px;
     margin: 10px 0px 10px 0px;
     padding: 10px;
 }   
+
 #logo:hover {
-    opacity: 80%;
-
+    opacity: 60%;
 }   
-
-
- content section {
-    margin: 0px 40px 0px 40px;
-
-}
 
 .bio {
     margin-top: 40px;
@@ -81,9 +88,9 @@ h2 {
 
 footer {
   font-size: 15px;
-  background: rgb(30, 30, 30);
+  background: #58b5b1;
   padding: 10px;
-  color: lightgrey;
+  color: white;
 }
 
 footer ul {
@@ -91,11 +98,16 @@ footer ul {
 }
 
 footer a {
-  color: lightgrey;
+  color: white;
 }
 
 footer a:hover {
   color: white;
 }
 
+
+
 /* Media queries 
+@media {
+  
+}
