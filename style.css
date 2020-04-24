@@ -22,6 +22,10 @@ main {
 
 /* Custom styles */
 
+main .card {
+  background-color: white !important;
+}
+
 a:hover{
     color: rgb(116, 192, 191);
 }
@@ -49,6 +53,7 @@ a:hover{
     background-color: #138496;
     border-color: #117a8b;
 }
+
 
 
 /*a {
