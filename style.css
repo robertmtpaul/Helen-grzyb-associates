@@ -16,9 +16,9 @@ main {
   background-color: #58b5b1 !important;
 }
 
-nav a {
+/*nav a {
     color: white !important;
-  }
+  }*/
 
 /* Custom styles */
 
@@ -102,7 +102,7 @@ footer a {
 }
 
 footer a:hover {
-  color: white;
+  opacity: 95%;
 }
 
 
