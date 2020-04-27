@@ -16,12 +16,6 @@ main {
   background-color: #58b5b1 !important;
 }
 
-/*nav a {
-    color: white !important;
-  }*/
-
-/* Custom styles */
-
 main .card {
   background-color: white !important;
 }
@@ -55,13 +49,6 @@ a:hover{
 }
 
 
-
-/*a {
-    font-weight: 700;
-    text-decoration: none;
-    color: black;
-}*/
-
 #logo {
     width: 350px;
     height: 83px;
@@ -89,6 +76,10 @@ h2 {
 
 #news {
     margin: 20px 0px 20px 0px;
+}
+
+#contact {
+  margin-top: 32px;
 }
 
 footer {
