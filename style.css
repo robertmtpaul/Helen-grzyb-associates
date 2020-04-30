@@ -16,7 +16,7 @@ main {
   background-color: #58b5b1 !important;
 }
 
-main .card {
+.green-top {
   background-color: white !important;
   border-top: 4px solid rgb(87, 181, 177);
   padding: 20px;
