@@ -18,6 +18,8 @@ main {
 
 main .card {
   background-color: white !important;
+  border-top: 4px solid rgb(87, 181, 177);
+  padding: 20px;
 }
 
 a:hover{
