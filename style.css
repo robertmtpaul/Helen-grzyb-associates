@@ -62,9 +62,6 @@ a:hover{
     opacity: 60%;
 }   
 
-.bio {
-    margin-top: 40px;
-}
 
 h2 {
     font-weight: 700;
@@ -82,6 +79,7 @@ h2 {
 
 #contact {
   margin-top: 32px;
+  margin-bottom: 0px;
 }
 
 footer {
