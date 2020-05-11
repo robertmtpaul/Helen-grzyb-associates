@@ -50,20 +50,8 @@ a:hover{
     border-color: #117a8b;
 }
 
-
-#logo {
-    width: 350px;
-    height: 83px;
-    margin: 10px 0px 10px 0px;
-    padding: 10px;
-}   
-
-#logo:hover {
-    opacity: 60%;
-}   
-
-
 h2 {
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 2em;
 }
