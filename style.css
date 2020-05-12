@@ -6,18 +6,18 @@ body {
     background-color: rgb(249, 249, 249);
 }
 
-main {
-      margin: 10px 10px 10px 10px !important;
+/* Navbar */
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(179, 220, 222);
+    font-family: Raleway, sans-serif;
 }
 
-/*Navbar*/
-
-.bg-dark {
-  background-color: #58b5b1 !important;
-}
+/* Landing cards */
 
 .green-top {
   background-color: white !important;
+  border: none;
   border-top: 4px solid rgb(87, 181, 177);
   padding: 20px;
 }
@@ -26,18 +26,22 @@ a:hover{
     color: rgb(116, 192, 191);
 }
 
-.buttonspacing {
-    margin-bottom: 20px;
+h2 {
+    font-weight: 700;
+    font-size: 2em;
 }
 
-.btn-info {
-  background-color: #58b5b1;
-  border-color: #58b5b1;
+.date {
+    font-size: 1em;
+    color: rgb(116, 192, 191);
 }
 
-.btn-info:hover {
-  background-color: #138496;
-  border-color: #117a8b;
+/*Jumbotron */
+
+#contact {
+  padding: 5%;
+  background-color:#57b5b136;
+  border-radius: 0px;
 }
 
 .btn-primary {
@@ -50,43 +54,17 @@ a:hover{
     border-color: #117a8b;
 }
 
-
-#logo {
-    width: 350px;
-    height: 83px;
-    margin: 10px 0px 10px 0px;
-    padding: 10px;
-}   
-
-#logo:hover {
-    opacity: 60%;
-}   
-
-
-h2 {
-    font-weight: 700;
-    font-size: 2em;
-}
-
-.date {
-    font-size: 1em;
-    color: rgb(116, 192, 191);
-}
+/*Custom styles*/
 
 #news {
     margin: 20px 0px 20px 0px;
 }
 
-#contact {
-  margin-top: 32px;
-  margin-bottom: 0px;
-}
-
 footer {
   font-size: 15px;
-  background: #58b5b1;
+  background: #3f535d;
   padding: 10px;
-  color: white;
+  color: rgb(179, 220, 222);
 }
 
 footer ul {
@@ -94,14 +72,12 @@ footer ul {
 }
 
 footer a {
-  color: white;
+  color: rgb(179, 220, 222);
 }
 
 footer a:hover {
   opacity: 95%;
 }
-
-
 
 /* Media queries 
 @media {
