@@ -6,15 +6,14 @@ body {
     background-color: rgb(249, 249, 249);
 }
 
-main {
-}
-
-/*Navbar*/
+/* Navbar */
 
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(179, 220, 222);
     font-family: Raleway, sans-serif;
 }
+
+/* Landing cards */
 
 .green-top {
   background-color: white !important;
@@ -26,32 +25,7 @@ a:hover{
     color: rgb(116, 192, 191);
 }
 
-.buttonspacing {
-    margin-bottom: 20px;
-}
-
-.btn-info {
-  background-color: #58b5b1;
-  border-color: #58b5b1;
-}
-
-.btn-info:hover {
-  background-color: #138496;
-  border-color: #117a8b;
-}
-
-.btn-primary {
-    background-color: #58b5b1;
-    border-color: #58b5b1;
-}
-
-.btn-primary:hover {
-    background-color: #138496;
-    border-color: #117a8b;
-}
-
-h2{
-    font-family: 'Raleway', sans-serif;
+h2 {
     font-weight: 700;
     font-size: 2em;
 }
@@ -61,20 +35,36 @@ h2{
     color: rgb(116, 192, 191);
 }
 
+/*Jumbotron */
+
+#contact {
+  margin-bottom: 10px;
+  padding: 20%;
+  background-color:#57b5b136;
+}
+
+.btn-primary {
+    background-color: #58b5b1;
+    border-color: #58b5b1;
+    margin: 20px 0px 0px;
+}
+
+.btn-primary:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/*Custom styles*/
+
 #news {
     margin: 20px 0px 20px 0px;
 }
 
-#contact {
-  margin-top: 32px;
-  margin-bottom: 0px;
-}
-
 footer {
   font-size: 15px;
-  background: #58b5b1;
+  background: #3f535d;
   padding: 10px;
-  color: white;
+  color: rgb(179, 220, 222);
 }
 
 footer ul {
@@ -82,7 +72,7 @@ footer ul {
 }
 
 footer a {
-  color: white;
+  color: rgb(179, 220, 222);
 }
 
 footer a:hover {
