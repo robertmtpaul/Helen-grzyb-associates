@@ -17,6 +17,7 @@ body {
 
 .green-top {
   background-color: white !important;
+  border: none;
   border-top: 4px solid rgb(87, 181, 177);
   padding: 20px;
 }
@@ -40,12 +41,12 @@ h2 {
 #contact {
   padding: 5%;
   background-color:#57b5b136;
+  border-radius: 0px;
 }
 
 .btn-primary {
     background-color: #58b5b1;
     border-color: #58b5b1;
-    margin: 20px 0px 0px;
 }
 
 .btn-primary:hover {
